@@ -4,21 +4,40 @@ body {
 	
 }
 
+body.index2 {
+	background-image: url('../images/wall-pops-way-cool-blue-dot-2.jpg');
+}
+
 .listheaders {
 	font-size: 20px;
 }
 
+.listheaders_index2 {
+	font-size: 20px;
+}
+
+
+
+
 .wrapper {
-	width: 50%;
+	width: 800px;
 	height: auto;
 	background-color: white;
 	margin: 0 auto;
-
 }
 
-#images {
-	margin: 50px;
+.wrapper_index2 {
+	width: 600px;
+	height: auto;
+ 	margin: 40px;
 }
+
+img {
+ 	  display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+ }
 
 .lists {
 	width: 50%;
@@ -26,33 +45,34 @@ body {
 	background-color: red;
 	margin: 0 auto;
 	color: white;
-
 }
 
-.boxes {
-	width: 10%;
-	height: 130px;
-	margin: 85px;
+footer {
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+}
+
+footer div {
+	margin: 2.5%; 
 	float: left;
+	width: 20%;
+	height: 130px;
 	background: white;
 }
 
 #bluebox {
-	width: 10%;
-	height: 130px;
-	margin: 85px;
-	float: left;
 	background: blue;
 }
 
 #greenbox {
-	width: 10%;
-	height: 130px;
-	margin: 85px;
-	float: left;
 	background: green;
 }
-
+ 
 header { font-size:40px;
+}
+
+header.index2 {font-size:40px;
+		color: yellow;
 }
 
